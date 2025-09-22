@@ -1,0 +1,26 @@
+{
+  "verificar_mensagens": {
+    "conversas": "//*[@id='pane-side']/div[1]/div/div/div",
+    "contato_nome": "//*[@id='main']/header/div[2]/div[1]/div/span",
+    "contato_nome_css": "header [dir='auto']",
+    "grupo_indicador": "//*[@id='main']/header/div[2]/div[2]/div/span",
+    "mensagens": "//*[@id='main']//div[contains(@class,'message-in')]"
+  },
+  "enviar_mensagem": {
+    "caixa_pesquisa": "//div[@contenteditable='true'][@data-tab='3']",
+    "contato_elemento": "//span[@title='{contato}']",
+    "caixa_mensagem": "//*[@id='main']//footer//div[@contenteditable='true']"
+  },
+  "enviar_imagem": {
+    "caixa_pesquisa": "//div[@role='textbox'][@contenteditable='true']",
+    "botao_clipe": "//*[@id='main']/footer/div[1]/div/span/div/div[2]/div/div[1]/div/span/div/div/div[1]/div[1]/span",
+    "input_arquivo": "//input[@accept='image/*,video/mp4,video/3gpp,video/quicktime']",
+    "botao_enviar": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div"
+  },
+  "enviar_video": {
+    "caixa_pesquisa": "//div[@role='textbox'][@contenteditable='true']",
+    "botao_clipe": "//*[@id='main']/footer/div[1]/div/span/div/div[2]/div/div[1]/div/span/div/div/div[1]/div[1]/span",
+    "input_arquivo": "//input[@accept='image/*,video/mp4,video/3gpp,video/quicktime']",
+    "botao_enviar": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div"
+  }
+}
