@@ -4,7 +4,7 @@
     "contato_nome": "//*[@id='main']/header/div[2]/div[1]/div/span",
     "contato_nome_css": "header [dir='auto']",
     "grupo_indicador": "//*[@id='main']/header/div[2]/div[2]/div/span",
-    "mensagens": "//*[@id='main']//div[contains(@class,'message-in')]//span[@class='selectable-text copyable-text']"
+    "mensagens": "//*[@id='main']//div[contains(@class,'message-in')]"
   },
   "enviar_mensagem": {
     "caixa_pesquisa": "//div[@contenteditable='true'][@data-tab='3']",
