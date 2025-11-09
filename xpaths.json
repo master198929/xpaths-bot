@@ -15,12 +15,12 @@
     "caixa_pesquisa": "//div[@role='textbox'][@contenteditable='true']",
     "botao_clipe": "//*[@id='main']/footer/div[1]/div/span/div/div[2]/div/div[1]/div/span/div/div/div[1]/div[1]/span",
     "input_arquivo": "//input[@accept='image/*,video/mp4,video/3gpp,video/quicktime']",
-    "botao_enviar": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div"
+    "botao_enviar": "//*[@id="app"]/div[1]/div/div[3]/div/div[3]/div[2]/div/span/div/div/div/div[2]/div/div[2]/div[2]/div/div"
   },
   "enviar_video": {
     "caixa_pesquisa": "//div[@role='textbox'][@contenteditable='true']",
     "botao_clipe": "//*[@id='main']/footer/div[1]/div/span/div/div[2]/div/div[1]/div/span/div/div/div[1]/div[1]/span",
     "input_arquivo": "//input[@accept='image/*,video/mp4,video/3gpp,video/quicktime']",
-    "botao_enviar": "//*[@id='app']/div/div[3]/div/div[2]/div[2]/span/div/div/div/div[2]/div/div[2]/div[2]/div/div"
+    "botao_enviar": "//*[@id="app"]/div[1]/div/div[3]/div/div[3]/div[2]/div/span/div/div/div/div[2]/div/div[2]/div[2]/div/div"
   }
 }
