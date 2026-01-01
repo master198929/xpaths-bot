@@ -11,16 +11,19 @@
     "contato_elemento": "//span[@title='{contato}']",
     "caixa_mensagem": "//*[@id='main']//footer//div[@contenteditable='true']"
   },
+  {
   "enviar_imagem": {
-    "caixa_pesquisa": "//div[@role='textbox'][@contenteditable='true']",
-    "botao_clipe": "/html/body/div[1]/div/div/div/div/div[3]/div/div[5]/div/footer/div[1]/div/span/div/div/div/div[1]/div/span/button",
+    "caixa_pesquisa": "//div[@contenteditable='true'][@data-tab='3']",
+    "campo_mensagem": "//div[@contenteditable='true'][@data-tab='10']",
     "input_arquivo": "//input[@type='file']",
-    "botao_enviar": "//*[@id="app"]/div[1]/div/div[3]/div/div[3]/div[2]/div/span/div/div/div/div[2]/div/div[2]/div[2]/div/div"
+    "botao_enviar": "//span[@data-icon='send']"
   },
+
   "enviar_video": {
     "caixa_pesquisa": "//div[@role='textbox'][@contenteditable='true']",
     "botao_clipe": "/html/body/div[1]/div/div/div/div/div[3]/div/div[5]/div/footer/div[1]/div/span/div/div/div/div[1]/div/span/button",
     "input_arquivo": "//input[@type='file']",
     "botao_enviar": "//*[@id="app"]/div[1]/div/div[3]/div/div[3]/div[2]/div/span/div/div/div/div[2]/div/div[2]/div[2]/div/div"
   }
+  
 }
