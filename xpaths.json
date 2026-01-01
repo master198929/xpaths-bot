@@ -1,27 +1,28 @@
 {
   "verificar_mensagens": {
     "conversas": "//*[@id='pane-side']/div[1]/div/div/div",
-    "contato_nome": "//*[@id='main']/header/div[2]/div[1]/div/span",
+    "contato_nome": "//*[@id='main']/header//span[@dir='auto']",
     "contato_nome_css": "header [dir='auto']",
-    "grupo_indicador": "//*[@id='main']/header/div[2]/div[2]/div/span",
+    "grupo_indicador": "//*[@id='main']/header//span[contains(@class,'group')]",
     "mensagens": "//*[@id='main']//div[contains(@class,'message-in')]"
   },
 
   "enviar_mensagem": {
-    "caixa_pesquisa": "//div[@contenteditable='true'][@data-tab='3']",
+    "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
     "contato_elemento": "//span[@title='{contato}']",
     "caixa_mensagem": "//*[@id='main']//footer//div[@contenteditable='true']"
   },
 
   "enviar_imagem": {
-    "caixa_pesquisa": "//div[@contenteditable='true'][@data-tab='3']",
-    "campo_mensagem": "//div[@contenteditable='true'][@data-tab='10']",
+    "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
+    "campo_mensagem": "//div[@contenteditable='true' and @data-tab='10']",
     "input_arquivo": "//input[@type='file']",
     "botao_enviar": "//span[@data-icon='send']"
   },
 
   "enviar_video": {
-    "caixa_pesquisa": "//div[@contenteditable='true'][@data-tab='3']",
+    "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
+    "campo_mensagem": "//div[@contenteditable='true' and @data-tab='10']",
     "input_arquivo": "//input[@type='file']",
     "botao_enviar": "//span[@data-icon='send']"
   }
