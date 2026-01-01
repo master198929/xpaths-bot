@@ -15,8 +15,7 @@
 
   "enviar_imagem": {
     "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
-    "campo_mensagem": "//div[@contenteditable='true' and @data-tab='10']",
-    "input_arquivo": "//input[@type='file']",
+    "input_arquivo": "//input[@type='file' and contains(@accept,'image')]",
     "botao_enviar": "//span[@data-icon='send']"
   },
 
