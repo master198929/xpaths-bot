@@ -21,6 +21,6 @@
   "enviar_video": {
     "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
     "caixa_mensagem": "//*[@id='main']//footer//div[@contenteditable='true']",
-     "input_file": "//input[@type='file']"
+     "input_arquivo": "//input[@type='file']"
   }
 }
