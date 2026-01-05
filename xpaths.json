@@ -15,7 +15,7 @@
 
   "enviar_imagem": {
     "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
-    "caixa_mensagem": "//*[@id='main']//footer//div[@contenteditable='true']"
+    "caixa_mensagem": "//*[@id="main"]/footer/div[1]/div/span/div/div/div/div[3]/div[1]/p"
   },
 
   "enviar_video": {
