@@ -15,9 +15,7 @@
 
   "enviar_imagem": {
     "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
-    "botao_clipe": "//span[@data-icon='clip']",
-    "input_arquivo": "//input[@type='file']",
-    "botao_enviar": "//span[@data-icon='send']"
+    "caixa_mensagem": "//*[@id='main']//footer//div[@contenteditable='true']"
   },
 
   "enviar_video": {
