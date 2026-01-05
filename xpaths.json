@@ -20,8 +20,6 @@
 
   "enviar_video": {
     "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
-    "campo_mensagem": "//div[@contenteditable='true' and @data-tab='10']",
-    "input_arquivo": "//input[@type='file']",
-    "botao_enviar": "//span[@data-icon='send']"
+    "caixa_mensagem": "//*[@id='main']//footer//div[@contenteditable='true']"
   }
 }
