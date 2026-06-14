@@ -2,7 +2,7 @@
     "verificar_mensagens": {
         "conversas": "//div[@role='row']",
         "contato_nome": "//*[@id='main']//header//div[contains(@class, 'user-select-text')]//span",
-        "contato_nome_css": "#main header div[dir='auto'] span, #main header span[title]",
+        "contato_nome_css": "#main header div.user-select-text span, #main header span[title]"
         "grupo_indicador": "//*[@id='main']//header//span[contains(@data-testid, 'default-group')] | //*[@id='main']//header//div[contains(@class, 'user-select-text') and contains(., ',')]",
         "mensagens": "//div[contains(@class, 'message-in')]"
     },
