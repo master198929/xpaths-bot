@@ -8,7 +8,7 @@
   },
 
   "enviar_mensagem": {
-    "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
+    "caixa_pesquisa": "//*[@id="_r_b_"]",
     "contato_elemento": "//span[@title='{contato}']",
     "caixa_mensagem": "//*[@id='main']//footer//div[@contenteditable='true']"
   },
