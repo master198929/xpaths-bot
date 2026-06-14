@@ -1,7 +1,7 @@
 {
   "verificar_mensagens": {
     "conversas": "//*[@id='pane-side']/div[1]/div/div/div",
-    "contato_nome": "//*[@id="pane-side"]/div/div/div/div[1]/div/div/div/div[2]",
+    "contato_nome": "//*[@id="pane-side"]/div[1]/div/div/div[1]/div/div/div/div[1]/div/div/div/div[2]/img",
     "contato_nome_css": "header [dir='auto']",
     "grupo_indicador": "//*[@id='main']/header//span[contains(@class,'group')]",
     "mensagens": "//*[@id='main']//div[contains(@class,'message-in')]"
