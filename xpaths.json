@@ -2,9 +2,9 @@
     "verificar_mensagens": {
         "conversas": "//div[@role='row']",
         "contato_nome": "//*[@id='main']//header//div[contains(@class, 'user-select-text')]//span",
-        "contato_nome_css": "#main header div.user-select-text span, #main header span[title]"
+        "contato_nome_css": "#main header div.user-select-text span, #main header span[title]",
         "grupo_indicador": "//*[@id='main']//header//span[contains(@data-testid, 'default-group')] | //*[@id='main']//header//div[contains(@class, 'user-select-text') and contains(., ',')]",
-        "mensagens": "//*[@id="main"]//div[@data-testid="msg-container"]"
+        "mensagens": "//*[@id='main']//div[@data-testid='msg-container']"
     },
     "enviar_mensagem": {
         "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
