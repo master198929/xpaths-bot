@@ -1,3 +1,4 @@
+
 {
   "espera_login": {
     "pane_side_id": "pane-side",
@@ -5,7 +6,7 @@
   },
   "verificar_mensagens": {
     "conversas": "//*[@id='pane-side']//div[@role='row']",
-    "mensagens": "//*[@id="main"]//span[contains(@class,"selectable-text"
+    "mensagens": "//*[@id='main']//div[@data-testid='msg-container']"
   },
   "enviar_mensagem": {
     "caixa_mensagem_css": "#main footer div[contenteditable='true']"
