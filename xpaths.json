@@ -1,4 +1,5 @@
 
+{
   "espera_login": {
     "pane_side_id": "pane-side",
     "search_box_fallback": "//div[@contenteditable='true']"
