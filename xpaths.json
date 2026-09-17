@@ -1,15 +1,21 @@
 {
+    "espera_login": {
+        "pane_side_id": "pane-side",
+        "search_box_fallback": "//div[@contenteditable='true']"
+    },
     "verificar_mensagens": {
         "conversas": "//div[@role='row']",
-        "contato_nome": "//*[@id='main']//header//div[contains(@class, 'user-select-text')]//span",
-        "contato_nome_css": "#main header div.user-select-text span, #main header span[title]",
-        "grupo_indicador": "//*[@id='main']//header//span[contains(@data-testid, 'default-group')] | //*[@id='main']//header//div[contains(@class,>
         "mensagens": "//*[@id='main']//div[@data-testid='msg-container']"
     },
     "enviar_mensagem": {
-        "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
-        "contato_elemento": "//span[@title='{contato}']",
-        "caixa_mensagem": "//div[@contenteditable='true' and @data-tab='10']"
+        "caixa_mensagem_css": "#main footer div[contenteditable='true']"
+    },
+    "conexao": {
+        "botao_recarregar": "//div[contains(@data-testid,'refresh-chat')]"
+    },
+    "popup": {
+        "confirm_popup_css": "[data-testid='confirm-popup']"
+    }
     },
     "enviar_imagem": {
         "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
@@ -21,5 +27,9 @@
         "input_arquivo": "//input[@type='file']"
     }
 }
+
+
+
+
 
 
