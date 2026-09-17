@@ -5,7 +5,7 @@
   },
   "verificar_mensagens": {
     "conversas": "//*[@id='pane-side']//div[@role='row']",
-    "mensagens": "//*[@id="main"]//div[@data-pre-plain-text]"
+    "mensagens": "//*[@id="main"]//div[contains(@class,"copyable-text")]"
   },
   "enviar_mensagem": {
     "caixa_mensagem_css": "#main footer div[contenteditable='true']"
