@@ -1,12 +1,11 @@
 
-{
   "espera_login": {
     "pane_side_id": "pane-side",
     "search_box_fallback": "//div[@contenteditable='true']"
   },
   "verificar_mensagens": {
     "conversas": "//*[@id='pane-side']//div[@role='row']",
-    "mensagens": "//*[@id='main']//div[@data-testid='msg-container']"
+    "mensagens": "//*[@id='main']//div[contains(@class,'message-in')]"
   },
   "enviar_mensagem": {
     "caixa_mensagem_css": "#main footer div[contenteditable='true']"
@@ -18,4 +17,3 @@
     "confirm_popup_css": "[data-testid='confirm-popup']"
   }
 }
-
