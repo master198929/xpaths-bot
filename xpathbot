@@ -5,9 +5,7 @@
     },
     "verificar_mensagens": {
         "conversas": "//*[@id='pane-side']//div[@role='row']",
-        "mensagens": "//*[@id='main']//div[@data-testid='msg-container']",
-        "nome_contato_aberto": "//*[@id='main']/header//span[@dir='auto']",
-        "indicador_grupo": "//*[@id='main']/header//span[contains(@class,'group')]"
+        "mensagens": "//*[@id='main']//div[@data-testid='msg-container']"
     },
     "enviar_mensagem": {
         "caixa_pesquisa": "//div[@contenteditable='true' and @data-tab='3']",
