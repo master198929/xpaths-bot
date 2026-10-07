@@ -8,7 +8,7 @@
         "mensagens": "//*[@id='main']//div[@data-testid='msg-container']"
     },
     "enviar_mensagem": {
-        "caixa_pesquisa": "//*[@id="_r_a_"]",
+        "caixa_pesquisa": "//input[@role='textbox' and @aria-label='Pesquisar ou começar uma nova conversa']",
         "contato_elemento": "//span[@title='{contato}']",
         "caixa_mensagem_css": "#main footer div[contenteditable='true']"
     },
