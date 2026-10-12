@@ -10,6 +10,9 @@
   "enviar_mensagem": {
     "caixa_mensagem_css": "#main footer div[contenteditable='true']"
   },
+  "enviar_imagem": {
+    "caixa_mensagem_css": "#main footer div[contenteditable='true']"
+  },
   "conexao": {
     "botao_recarregar": "//div[contains(@data-testid,'refresh-chat')]"
   },
